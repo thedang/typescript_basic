@@ -1,0 +1,23 @@
+{
+  "name": "typesciprt_starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/app.js",
+    "dev": "nodemon --watch '**/*.ts' --exec 'ts-node' app.ts",
+    "run-ts-node": "ts-node-dev --respawn --transpileOnly src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.49",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "codelyzer": "^5.2.2"
+  }
+}
